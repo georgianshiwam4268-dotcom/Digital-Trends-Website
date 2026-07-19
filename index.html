@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Trends — Real Estate Marketing Agency</title>
+<meta name="description" content="Digital Trends is a full-service digital marketing agency exclusively for real estate agents. Video editing, social media management, reels, content creation, and branding.">
+<link rel="icon" type="image/png" href="/logo-transparent.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <img src="/logo-transparent.png" alt="Digital Trends logo" class="logo-mark">
+      <span class="logo-text-group">
+        <span class="logo-text">Digital Trends</span>
+        <span class="logo-sub">Real estate marketing agency</span>
+      </span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Book a free call <span class="arrow">↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">Services</a>
+    <a href="#work">Our Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-outline">Book a free call <span class="arrow">↗</span></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow reveal">Full-service digital growth</p>
+    <h1 class="hero-headline reveal">
+      <span>Your brand.</span>
+      <span>Everywhere that</span>
+      <span class="accent">matters.</span>
+    </h1>
+    <p class="hero-sub reveal">Social media, video, reels, branding, content — everything handled. You close deals. We handle the rest.</p>
+    <div class="hero-actions reveal">
+      <a href="#contact" class="btn btn-solid">Start growing <span class="arrow">→</span></a>
+      <a href="#work" class="btn btn-ghost">See our work <span class="arrow">↗</span></a>
+    </div>
+    <p class="hero-proof reveal">Trusted by 20+ real estate agents</p>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-track" id="tickerTrack">
+    <!-- filled by JS, duplicated content for seamless loop -->
+  </div>
+</div>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat-item">
+    <span class="stat-number" data-count="3" data-suffix="x+">0x+</span>
+    <span class="stat-label">Average engagement growth</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number" data-count="20" data-suffix="+">0+</span>
+    <span class="stat-label">Agents scaled</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number" data-count="48" data-suffix="h">0h</span>
+    <span class="stat-label">Content turnaround</span>
+  </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section class="section" id="services">
+  <div class="section-inner">
+    <p class="section-label">What we handle<span class="label-line"></span></p>
+    <div class="services-grid">
+
+      <div class="card service-card reveal">
+        <span class="service-num">01</span>
+        <h3>Video Editing</h3>
+        <p>Cinematic property walkthroughs, drone edits, and listing videos with 48h turnaround.</p>
+        <div class="chips">
+          <span class="chip">Walkthroughs</span>
+          <span class="chip">Drone</span>
+          <span class="chip">Listings</span>
+        </div>
+      </div>
+
+      <div class="card service-card reveal">
+        <span class="service-num">02</span>
+        <h3>Social Media Management</h3>
+        <p>Full strategy, posting, and growth across Instagram, TikTok, X, and YouTube.</p>
+        <div class="chips">
+          <span class="chip">Instagram</span>
+          <span class="chip">TikTok</span>
+          <span class="chip">X</span>
+          <span class="chip">YouTube</span>
+        </div>
+      </div>
+
+      <div class="card service-card reveal">
+        <span class="service-num">03</span>
+        <h3>Reels &amp; Short-form Content</h3>
+        <p>Scroll-stopping reels and TikToks built to grow audience and generate leads.</p>
+        <div class="chips">
+          <span class="chip">Reels</span>
+          <span class="chip">TikTok</span>
+          <span class="chip">Shorts</span>
+        </div>
+      </div>
+
+      <div class="card service-card reveal">
+        <span class="service-num">04</span>
+        <h3>Content Creation</h3>
+        <p>On-brand photo and video content shot and produced around your listings and personal brand.</p>
+        <div class="chips">
+          <span class="chip">Photography</span>
+          <span class="chip">Video</span>
+          <span class="chip">Copywriting</span>
+        </div>
+      </div>
+
+      <div class="card service-card reveal">
+        <span class="service-num">05</span>
+        <h3>Branding</h3>
+        <p>A cohesive visual identity — logo, colors, templates — that makes you instantly recognizable.</p>
+        <div class="chips">
+          <span class="chip">Identity</span>
+          <span class="chip">Templates</span>
+          <span class="chip">Guidelines</span>
+        </div>
+      </div>
+
+      <div class="card service-card reveal">
+        <h3>Something custom in mind?</h3>
+        <p>Every agent's brand is different. Tell us what you're picturing and we'll build a package around it.</p>
+        <a href="#contact" class="btn btn-outline" style="margin-top: 24px;">Let's talk <span class="arrow">→</span></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORK PREVIEW -->
+<section class="section" id="work">
+  <div class="section-inner">
+    <p class="section-label">Our work<span class="label-line"></span></p>
+    <h2 class="section-headline reveal">Results that speak for themselves</h2>
+
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-thumb">
+          <div class="play-btn">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </div>
+          <span class="work-upload-note">Upload your work here</span>
+        </div>
+        <div class="work-meta">
+          <span>Property Walkthrough</span>
+          <span class="work-platform">Instagram Reels</span>
+        </div>
+      </div>
+
+      <div class="work-card reveal">
+        <div class="work-thumb">
+          <div class="play-btn">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </div>
+          <span class="work-upload-note">Upload your work here</span>
+        </div>
+        <div class="work-meta">
+          <span>Listing Video</span>
+          <span class="work-platform">YouTube</span>
+        </div>
+      </div>
+
+      <div class="work-card reveal">
+        <div class="work-thumb">
+          <div class="play-btn">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </div>
+          <span class="work-upload-note">Upload your work here</span>
+        </div>
+        <div class="work-meta">
+          <span>Brand Reel</span>
+          <span class="work-platform">TikTok</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="work-cta reveal">
+      <a href="/our-work" class="btn btn-outline">See all work <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" id="how-it-works">
+  <div class="section-inner">
+    <p class="section-label">How it works<span class="label-line"></span></p>
+
+    <div class="steps-row">
+      <div class="step reveal">
+        <span class="step-num">01</span>
+        <h3>Discovery call</h3>
+        <p>We learn your brand, goals, and current presence. Straight to strategy, no fluff.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step-num">02</span>
+        <h3>Custom plan</h3>
+        <p>A tailored growth plan built around your market, niche, and content style.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step-num">03</span>
+        <h3>We execute</h3>
+        <p>Our team handles everything — editing, posting, branding — while you focus on deals.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step-num">04</span>
+        <h3>You grow</h3>
+        <p>More reach, more leads, more listings. Monthly reports so you see what's working.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="section-inner">
+    <p class="section-label">Pricing<span class="label-line"></span></p>
+    <h2 class="section-headline reveal">Simple plans, real results</h2>
+
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <h3>Starter</h3>
+        <div class="price">
+          <span class="price-amount">$750</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <ul class="price-features">
+          <li>4 edited videos / month</li>
+          <li>Social media scheduling</li>
+          <li>Monthly performance report</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline price-btn">Get started <span class="arrow">→</span></a>
+      </div>
+
+      <div class="price-card price-card-highlight reveal">
+        <span class="badge">Most popular</span>
+        <h3>Growth</h3>
+        <div class="price">
+          <span class="price-amount">$1,500</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <ul class="price-features">
+          <li>10 edited videos / month</li>
+          <li>Full social media management</li>
+          <li>Reels &amp; short-form content</li>
+          <li>Monthly strategy call</li>
+        </ul>
+        <a href="#contact" class="btn btn-solid price-btn">Get started <span class="arrow">→</span></a>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>Scale</h3>
+        <div class="price">
+          <span class="price-amount">$2,800</span>
+          <span class="price-period">/mo</span>
+        </div>
+        <ul class="price-features">
+          <li>Unlimited edited videos</li>
+          <li>Full-service management &amp; branding</li>
+          <li>Priority 48h turnaround</li>
+          <li>Weekly strategy calls</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline price-btn">Get started <span class="arrow">→</span></a>
+      </div>
+    </div>
+
+    <p class="pricing-note">All plans include a 14-day trial period. Cancel anytime, no long-term contracts.</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials">
+  <div class="section-inner">
+    <p class="section-label">Testimonials<span class="label-line"></span></p>
+    <h2 class="section-headline reveal">Agents who scaled with us</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card reveal">
+        <span class="quote-mark">"</span>
+        <p class="testimonial-text">Our engagement tripled in two months. Listings get seen now, and leads come in every week.</p>
+        <span class="testimonial-name">Jordan M. — Real Estate Agent, Austin</span>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <span class="quote-mark">"</span>
+        <p class="testimonial-text">I finally stopped worrying about content. Digital Trends handles it all and it looks better than anything I made myself.</p>
+        <span class="testimonial-name">Sara R. — Broker, Miami</span>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <span class="quote-mark">"</span>
+        <p class="testimonial-text">Fast turnaround, consistent quality, and they actually understand real estate marketing.</p>
+        <span class="testimonial-name">David K. — Real Estate Agent, Denver</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING CTA -->
+<section class="section closing-cta-section">
+  <div class="section-inner">
+    <div class="card cta-card cta-card-standalone reveal">
+      <h3>One agency.<br>Everything handled.</h3>
+      <a href="#contact" class="btn btn-solid">Get a free audit <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div>
+      <h2 class="contact-headline reveal">Let's grow your brand</h2>
+      <p class="contact-sub reveal">Tell us a bit about your business and goals — we'll get back to you within 24 hours with a plan.</p>
+      <div class="contact-details reveal">
+        <a href="mailto:hello@digitaltrendsagency.com" class="contact-email">hello@digitaltrendsagency.com</a>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/real.estatetrends/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://x.com/Digitalltrends" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="a8a36adf-90d2-4262-8028-064862162bb4">
+      <input type="hidden" name="subject" value="New message from Digital Trends website">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us about your brand and goals" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-solid form-submit">Send message <span class="arrow">→</span></button>
+      <p class="form-success" id="formSuccess">Thanks — we'll be in touch within 24 hours.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#work">Our Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-inner">
+    <a href="/" class="logo footer-logo">
+      <img src="/logo-transparent.png" alt="Digital Trends logo" class="logo-mark">
+      <span class="logo-text">Digital Trends</span>
+    </a>
+    <p class="footer-copy">&copy; 2026 Digital Trends. All rights reserved.</p>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/real.estatetrends/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/Digitalltrends" target="_blank" rel="noopener">X</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
